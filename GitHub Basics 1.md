@@ -67,7 +67,7 @@ Branching allows you to create separate versions of your project so you can work
 * In the .gitignore file, type *.env*. Immediately you save that, you realize that the env file that was flagged untracked will no longer be flagged.
 
 
-### Common Branching Strategies
+### Common Branching Strategies/Names
 * main- stable production code
 * feature/new-button – new features
 * bugfix/hot-scroll – fix specific issues
@@ -82,11 +82,31 @@ Branching allows you to create separate versions of your project so you can work
 * Create pull request and there you go
 * When you’re done with the branch, you can delete the branch.
 
+
+### How to maerge a branch locally
+To merge locally, ensure you are in the branch you want to update (eg main) this means you're in the branch you want to merge another branch with. Then use:  
+	```git checkout main```  
+    ```git merge feature/new-menu```  
+
+## Deleting
 ### How to delete a branch
+Deleting branch on GitHub is easy.  
 
-But when you delete on GitHub, a git branch on VS Code will still show that branch. So first switch to another branch or main branch with git checkout main.
-Then git pull.
+But when you delete on GitHub, the branch will still show up on VS Code when you use ```git branch```. So here's how to delete branch locally:
+* Switch to another branch or the main branch with ```git checkout main```.
+* Then ```git pull```.  
 
-Deleting branch on GitHub is easy.
-To delete on VS code: Use git branch -d delete feature/new-menu
+**OR**  
+* Use ```git branch -d delete feature/new-menu```  
 To delete two branches, just put space in between both branch names
+
+### How to delete a local repo
+Use ```rm -rf bootcamp_repo```
+
+## Some Best Practices
+* Always pull before working on your local repo. Merge conflicts are not always easy to resolve.
+* Always check the branch you’re working on before starting work
+* Commit small changes for each pull request. Changes should address something tangible but should be easy to review.
+    * Which means you can do ```git add mariam.md``` and commit. Then write the commit message for that. Then do git add for another file, commit it and write its commit message
+
+
