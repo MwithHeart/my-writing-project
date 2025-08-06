@@ -1,5 +1,5 @@
-## Forking & Cloning
-### Clone a repository
+# Forking & Cloning
+## Clone a repository
 You often clone a repo when you have access to the repo. 
 To clone a repo:
 * On the home page of the repo in GitHub, theres a green icon named "Code"
