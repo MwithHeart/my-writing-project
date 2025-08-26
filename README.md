@@ -1,5 +1,5 @@
 # MY WRITING PROJECT
-This project should eventually contain a compilation of my learnings from the WriteTech Hub Bootacmp.  
+This project should eventually contain a compilation of my learnings from the WriteTech Hub Free Technical Writing Bootcamp.  
 Just for humor, this file says, "Hello. I'm the README, so read me." 😊😊   
 
 ## About me
