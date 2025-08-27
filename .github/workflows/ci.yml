@@ -5,7 +5,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions
 on: [push]
 
 jobs:
-    Mini-Assignment:
+  Mini-Assignment:
     runs-on: windows-latest
     steps:
       - run: echo "My GitHub Username is MwithHeart. This repository is for Practice"
